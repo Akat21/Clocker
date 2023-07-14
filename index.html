@@ -4,10 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clocker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Noto+Serif+JP:wght@900&family=Prompt&family=Russo+One&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="app">
+        <video loop autoplay>
+            <source src="./assets/video/background_timelaps7.mp4" type="video/mp4">
+        </video>
+        <div class="header-container">
+            <h1>
+                <span>Clock</span><span>.</span><span>er</span>
+            </h1>
+            <h1>Toronto</h1>            
+        </div>
+        <div class="time-container">
+            <div class="day">
+                <h3>Day</h3>
+                <h1>Mon</h1>
+            </div>
+            <div class="hour">
+                <h3>Hour</h3>
+                <h1>13</h1>
+            </div>
+            <h2>:</h2>
+            <div class="minute">
+                <h3>Minute</h3>
+                <h1>47</h1>
+            </div>
+            <h2>:</h2>
+            <div class="second">
+                <h3>Second</h3>
+                <h1>23</h1>
+            </div>
+        </div>
+        <div class="search-container">
+            <div class="search-bar">
+                <input type="text" placeholder="Search for city">
+                <button>Search</button>
+            </div>
+        </div>
+    </div>
     <script src="./App.js"></script>
 </body>
 </html>
