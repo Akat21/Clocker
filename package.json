@@ -1,0 +1,25 @@
+{
+  "name": "clocker",
+  "version": "1.0.0",
+  "description": "Application allowing browse time in different places of world",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akat21/Clocker.git"
+  },
+  "keywords": [
+    "TimeZones"
+  ],
+  "author": "Akatz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akat21/Clocker/issues"
+  },
+  "homepage": "https://github.com/Akat21/Clocker#readme",
+  "dependencies": {
+    "firebase": "^10.0.0"
+  }
+}
