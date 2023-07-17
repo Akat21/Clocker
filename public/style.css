@@ -27,7 +27,8 @@ video{
 .time-container,
 .search-container{
     width: 100%;
-    color:white
+    color:white;
+    user-select: none;
 }
 
 .header-container{
